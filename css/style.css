@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'P22Mackinac-Medium';
-    src: url('/assets/P22Mackinac-Medium_6.otf');
+    src: url("https://dharmikspatel.github.io/assets/P22Mackinac-Medium_6.otf");
 }
 #avatar {
     width: 12em;
