@@ -6,36 +6,32 @@
     font-family: 'Avenir-Normal';
     src: url("https://dharmikspatel.github.io/assets/AvenirNextLTPro-Regular.otf");
 }
-
 .avatar {
-    border-radius: 50%;
-}
-.avatarParent {
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    
-}
-#avatarone {
-    display: block;
     width: 40%;
+    margin: 0 auto;
+}
+.image {
+    display: block;
+    width: 100%;
     height: auto;
+    border-radius: 50%;
   }
-#avatartwo {
+.overlay {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     height: 100%;
-    width: 40%;
+    width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008CBA;
 }
-.avatarParent:hover #avatartwo {
+.avatar:hover .overlay {
     opacity: 1;
-}
+  }
+
 button {
     border-radius: 10em;
     font-size: 14pt;
@@ -48,7 +44,7 @@ button {
 
 }
 .b1{
-    background-color: #cde1d6;
+    background-color: #cde0e1;
 }
 .b2{
     background-color: #fff3f3;
@@ -85,4 +81,15 @@ h2{
     text-align: center;
     
 }
+.avatarParent{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 1px dashed wheat;
+    text-align: center;
+}
+
 
