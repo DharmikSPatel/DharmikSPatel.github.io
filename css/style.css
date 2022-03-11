@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'P22Mackinac-Medium';
+    src: url('/assets/P22Mackinac-Medium_6.otf');
+}
 #avatar {
     width: 12em;
     border-radius: 50%;
@@ -49,4 +53,6 @@ h2{
     transform: translate(-50%, -50%);
     
     text-align: center;
+    
 }
+
