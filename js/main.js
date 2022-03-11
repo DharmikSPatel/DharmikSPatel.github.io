@@ -60,3 +60,5 @@ function setInstantInterval(func, time){
 
 
 
+
+
