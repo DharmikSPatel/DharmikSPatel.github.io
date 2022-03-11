@@ -6,9 +6,35 @@
     font-family: 'Avenir-Normal';
     src: url("https://dharmikspatel.github.io/assets/AvenirNextLTPro-Regular.otf");
 }
-#avatar {
-    width: 12em;
+
+.avatar {
     border-radius: 50%;
+}
+.avatarParent {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+#avatarone {
+    display: block;
+    width: 40%;
+    height: auto;
+  }
+#avatartwo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 40%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+.avatarParent:hover #avatartwo {
+    opacity: 1;
 }
 button {
     border-radius: 10em;
