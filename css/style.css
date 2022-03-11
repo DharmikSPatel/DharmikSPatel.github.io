@@ -2,6 +2,10 @@
     font-family: 'P22Mackinac-Medium';
     src: url("https://dharmikspatel.github.io/assets/P22Mackinac-Medium_6.otf");
 }
+@font-face {
+    font-family: 'Avenir-Normal';
+    src: url("https://dharmikspatel.github.io/assets/AvenirNextLTPro-Regular");
+}
 #avatar {
     width: 12em;
     border-radius: 50%;
