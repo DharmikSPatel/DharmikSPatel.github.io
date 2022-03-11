@@ -1,0 +1,15 @@
+a {
+    text-decoration: none;
+}
+
+.faded {
+    color: #fff3f3b0;
+}
+a:hover {
+    text-decoration:underline;
+}
+
+
+.main {
+    width: 80%;
+}
