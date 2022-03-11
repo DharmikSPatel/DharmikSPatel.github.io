@@ -4,12 +4,12 @@
 
 .row {
     display: flex;
-    border: 1px dashed red;
+    /* border: 1px dashed red; */
 }
 .project {
     flex: 1;
-    border: 1px dashed white;
     margin-right: 20px;
+    /* border: 1px dashed white; */
 }
 .project:last-child {
     margin-right: 0px;
