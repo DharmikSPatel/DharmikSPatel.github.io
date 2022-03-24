@@ -1,16 +1,30 @@
 .projectImg {
-    width: 100%;
+    object-fit: 20%;
 }
-
-.row {
+.projectCont {
     display: flex;
-    /* border: 1px dashed red; */
+    /* border: 1px dashed red;  */
+    border-radius: 25px;
+    background: #cde0e191;;
+    padding: 3%;
+    height: 150px;
+    margin-bottom: 3%;
+    
 }
-.project {
-    flex: 1;
-    margin-right: 20px;
-    /* border: 1px dashed white; */
+.projectTitle {
+    font-size: 20px;
+    color: #5c7374;
+
 }
-.project:last-child {
-    margin-right: 0px;
-} 
+.break {
+    height: 7%;
+}
+.projectInfo {
+    padding-left: 3%;
+    text-align: left;
+    color: #5c7374;
+
+}
+.main {
+    width: 50%;
+}
