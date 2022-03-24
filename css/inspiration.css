@@ -8,8 +8,25 @@ a {
 a:hover {
     text-decoration:underline;
 }
+.horiScroll {
+    align-self: center;
+    height: 400px;
+    width: 100%;
+    overflow: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    /* border: 1px dashed white; */
+}
 
+.actionImg {
+    height: 100%;
+    padding-left: 10px;
+    border-radius: 25px;
+}
+.horiScroll:last-child {
+    border-radius: 0px;
+}
 
 .main {
-    width: 80%;
+    width: 55%;
 }
