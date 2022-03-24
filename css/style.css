@@ -6,11 +6,71 @@
     font-family: 'Avenir-Normal';
     src: url("https://dharmikspatel.github.io/assets/AvenirNextLTPro-Regular.otf");
 }
+.startImages {
+    position: relative;
+    margin-top: 9%;
+    /* border: 1px dashed red; */
+
+}
+.icon {
+    position: absolute;
+    border-radius: 50%;
+    /* border: 1px dashed red; */
+}
+.icon.mainI {
+    width: 7%;
+    top: 41.3%;
+    cursor:pointer;
+}
+.icon.mainI.left {
+    left: 21%;
+}
+.icon.mainI.right {
+    right: 21%;
+    border-radius: 0;
+}
+.icon.mediumI {
+    width: 4%;
+    height: 0;
+    padding-top: 4%;
+    background-color: #cde0e1;
+}
+.icon.mediumI.left {
+    left: 24.5%;
+}
+.icon.mediumI.right {
+    right: 24.5%;
+}
+.icon.mediumI.top {
+    top: 27%;
+}
+.icon.mediumI.bot {
+    bottom: 27%;
+}
+.icon.smallI{
+    width: 2%;
+    height: 0;
+    padding-top: 2%;
+    background-color: #fff3f3;
+}
+.icon.smallI.left {
+    left: 28%;
+}
+.icon.smallI.right {
+    right: 28%;
+}
+.icon.smallI.top {
+    top: 17.5%;
+}
+.icon.smallI.bot {
+    bottom: 17.5%;
+}
 .avatar {
     position: relative;
     width: 40%;
     margin: 0 auto;
-    margin-top: 9%;
+    /* border: 1px dashed red; */
+
 }
 .avatarImage {
     display: block;
