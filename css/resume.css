@@ -2,5 +2,12 @@
     width: 100%;
 }
 .embeddedPDF {
-    width: 100%;
+    width: 50%;
+    height: 920px;
 }
+@media only screen and (max-width: 1000px) {
+    .embeddedPDF {
+      width: 95%;
+      height: 460px;
+    }
+  }
