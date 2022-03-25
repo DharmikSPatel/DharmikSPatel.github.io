@@ -4,10 +4,12 @@
 .embeddedPDF {
     width: 50%;
     height: 920px;
+    visibility: visible;
 }
 @media only screen and (max-width: 1000px) {
     .embeddedPDF {
       width: 95%;
       height: 460px;
+      visibility: visible;
     }
   }
