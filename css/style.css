@@ -6,6 +6,28 @@
     font-family: 'Avenir-Normal';
     src: url("https://dharmikspatel.github.io/assets/AvenirNextLTPro-Regular.otf");
 }
+/* * {
+    border: 1px dashed red;
+} */
+.mail {
+}
+.contactIcon {
+    font-size: 1.6em;
+    padding-right: 10px;
+    color: #fff3f3;
+    cursor:pointer;
+
+}
+.contact:last-child {
+    padding-right: 0px;
+}
+.contact {
+    margin-top: -18px;
+    margin-bottom: -10px;
+}
+br {
+    border: 1px dashed green;
+}
 .startImages {
     position: relative;
     margin-top: 9%;
@@ -18,8 +40,9 @@
     /* border: 1px dashed red; */
 }
 .icon.mainI {
-    width: 7%;
     top: 41.3%;
+    font-size: 2em;
+    color: #fff3f3;
     cursor:pointer;
 }
 .icon.mainI.left {
@@ -29,6 +52,23 @@
     right: 21%;
     border-radius: 0;
 }
+.icon.mainI2 {
+    font-size: 2em;
+    color: #fff3f3;
+    cursor:pointer;
+}
+/* .icon.mainI2.left {
+    left: 22%;
+}
+.icon.mainI2.right {
+    right: 22%;
+}
+.icon.mainI2.top {
+    top: 19%;
+}
+.icon.mainI2.bot {
+    bottom: 21%;
+} */
 .icon.mediumI {
     width: 4%;
     height: 0;
@@ -69,6 +109,7 @@
     position: relative;
     width: 40%;
     margin: 0 auto;
+    margin-top: -2.4%;
     /* border: 1px dashed red; */
 
 }
@@ -136,6 +177,7 @@ h2{
     font-family: 'P22Mackinac-Medium';
     font-weight: normal;
     color: #faeee0;
+
 }
 .main {
     margin: 0;
