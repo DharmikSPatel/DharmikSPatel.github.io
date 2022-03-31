@@ -13,14 +13,3 @@ a:hover {
 .main {
     width: 80%;
 }
-.recom {
-    width: 10%;
-    text-align: left;
-    border: 1px dashed rgb(216, 143, 143);
-
-}
-.recomPar {
-    
-    border: 1px dashed red;
-
-}
