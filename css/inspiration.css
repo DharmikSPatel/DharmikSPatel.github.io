@@ -9,9 +9,11 @@ a:hover {
     text-decoration:underline;
 }
 .horiScroll {
+    margin-left: auto;
+    margin-right: auto;
     align-self: center;
     height: 400px;
-    width: 100%;
+    width: 80%;
     overflow: auto;
     overflow-y: hidden;
     white-space: nowrap;
@@ -26,7 +28,15 @@ a:hover {
 .horiScroll:last-child {
     border-radius: 0px;
 }
+p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 
-.main {
-    width: 55%;
 }
+.main {
+    width: 80%;
+    align-items: center;
+
+}
+
