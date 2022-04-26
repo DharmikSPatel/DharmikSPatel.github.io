@@ -19,7 +19,14 @@ a:hover {
     white-space: nowrap;
     /* border: 1px dashed white; */
 }
-
+@media only screen and (max-width: 1000px) {
+    .horiScroll {
+        height: 200px;
+    }
+    .actionImg{
+        border-radius: 10px;
+    }
+  }
 .actionImg {
     height: 100%;
     padding-left: 10px;
